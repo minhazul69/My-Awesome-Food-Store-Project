@@ -21,6 +21,11 @@
     #eebf00 100%
   );
 }
+@media only screen and (max-width: 480px) {
+  *::-webkit-scrollbar {
+    display: none;
+  }
+}
 body {
   -webkit-font-smoothing: antialiased;
   font-family: raleway-regular;
